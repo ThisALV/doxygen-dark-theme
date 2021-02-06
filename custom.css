@@ -161,13 +161,6 @@ dl.reflist dd {
 	margin-bottom: 15px;
 }
 
-/* Background colors */
-dl.note {}
-dl.warning {}
-dl.todo {}
-dl.deprecated {}
-dl.reflist {}
-
 /* Header */
 dl.note dt {
 	background-color: #cbc693;
@@ -213,14 +206,6 @@ dl.deprecated dd {
 dl.reflist dd {
 	background-color: #ffe0b2;
 	border-color: #cbae82;
-}
-
-/*********************************************/
-/**               Reference list            **/
-/**Similar to warning/note/todo/... messages**/
-/*********************************************/
-dl.reflist {
-
 }
 
 /*********************************************/
@@ -328,11 +313,3 @@ td.memItemLeft, td.memItemRight {
 img.footer {
 	height: 22px;
 }
-
-/*********************************************/
-/**             Custom scrollbar            **/
-/*********************************************/
-
-/*********************************************/
-/**             Custom scrollbar            **/
-/*********************************************/

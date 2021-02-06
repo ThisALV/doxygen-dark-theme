@@ -22,10 +22,6 @@ div.fragment, pre.fragment {
 	background: #32363d;
 }
 
-a, a:link, a:visited {
-	color: #67d8ef !important;
-}
-
 .highlighted {
 	background: none !important;
 }
@@ -89,7 +85,6 @@ a.SelectItem:hover {
 #MSearchResultsWindow {
 	border: 1px solid #000000;
 	background: #32363d;
-	color: #67d8ef !important;;
 }
 
 /*********************************************/
@@ -188,23 +183,6 @@ div.header {
 }
 
 /*********************************************/
-/**              H1 in textblocks           **/
-/*********************************************/
-
-/*********************************************/
-/**               Note, warning             **/
-/*********************************************/
-
-/*********************************************/
-/**               Reference list            **/
-/**Similar to warning/note/todo/... messages**/
-/*********************************************/
-dl.reflist {
-
-}
-
-
-/*********************************************/
 /**               Note, warning             **/
 /*********************************************/
 #docs_list {
@@ -253,7 +231,6 @@ span.keyword {
 }
 
 span.keywordtype {
-	color: #67cfc1;
 	font-style: italic;
 }
 
@@ -318,10 +295,6 @@ span.lineno a {
 .memSeparator {
 	border: none;
 	background: transparent;
-}
-
-h2.groupheader {
-	color: #67d8ef;
 }
 
 /*********************************************/
@@ -406,7 +379,6 @@ td.memItemLeft, td.memItemRight {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #234567;
 	border: none;
 }
 
@@ -420,5 +392,5 @@ td.memItemLeft, td.memItemRight {
 /*********************************************/
 h1.glow, h2.glow, h3.glow,
 h4.glow, h5.glow, h6.glow {
-	text-shadow: 0 0 15px #67d8ef;
+	text-shadow: 0 0 15px;
 }
