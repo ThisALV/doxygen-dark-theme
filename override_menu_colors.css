@@ -5,3 +5,7 @@
 .sm-dox a span.sub-arrow {
     border-color: #61612a transparent transparent transparent;
 }
+
+.sm-dox .sm-nowrap > li > a {
+    color: #61612a;
+}
